@@ -21,3 +21,39 @@ body {
   cursor: pointer;
   outline: inherit;
 }
+
+.bg-custom {
+  background-color: chartreuse;
+}
+
+.m-custom {
+  height: 212px;
+  width: 305px;
+}
+
+.carousel-item img {
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  height: 315px; /* Altura fixa para todas as imagens */
+  object-fit: cover; /* Ajusta a imagem para cobrir a área, mantendo a proporção */
+  width: 100%; /* Certifica-se de que a largura ocupa 100% do contêiner */
+}
+
+@media (min-width: 992px) {
+  .carousel-item img {
+    object-position: top; /* Reposiciona a imagem para mostrar a parte superior */
+  }
+}
+
+.carousel-fade .carousel-item {
+  transition: opacity 1.5s ease; /* Personaliza a duração e o estilo da transição */
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.m-custom {
+  margin-left: 10px;
+}
