@@ -57,3 +57,7 @@ p {
 .m-custom {
   margin-left: 10px;
 }
+
+.hover-custom:hover {
+  background-color: gainsboro;
+}
